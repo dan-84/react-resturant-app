@@ -12,6 +12,20 @@ const Restaurant = ({ data, location }) => {
           <div className="row">
             <div className="col-md-12">
               <h2>Le Restaurant</h2>
+              <p>
+                Le restaurant est ouvert entre 12h et 14h et de 19h à 21h. Nous
+                vous conseillons de réserver pour les groupes de plus de 10
+                personnes.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <img
+                alt="Restaurant"
+                className="img-thumbnail"
+                src="/img/content/restaurant-original.jpg"
+              />
             </div>
           </div>
         </div>
