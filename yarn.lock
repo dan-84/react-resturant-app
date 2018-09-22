@@ -9600,9 +9600,9 @@ react-hot-loader@^4.1.0:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
 
-react-image-lightbox@^5.0.0:
+"react-image-lightbox@git+https://github.com/browniebroke/react-image-lightbox#fix-umd-bug":
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/react-image-lightbox/-/react-image-lightbox-5.0.0.tgz#0c19aa8a43abf41262cbe082c779cc01f6334b5f"
+  resolved "git+https://github.com/browniebroke/react-image-lightbox#514e4804b0dac697fc36d8b7bd55c0f1ee8a912a"
   dependencies:
     prop-types "^15.6.1"
     react-modal "^3.4.4"
