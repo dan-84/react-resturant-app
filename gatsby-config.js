@@ -10,6 +10,13 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/gallery/`,
+        name: 'gallery',
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
